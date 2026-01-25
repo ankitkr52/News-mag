@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar'
 import Newsboard from './Components/Newsboard'
 
 const App = () => {
-  const [category,setCategory]=useState("health")
+  const [category,setCategory]=useState("general")
   // const [country,setCountry]=useState("in")
   return (
     <div>
