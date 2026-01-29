@@ -18,11 +18,10 @@ const Navbar = ({setCategory}) => {
           <div className="nav-link btn" onClick={()=>setCategory("business")}>Business</div>
         </li>
          <li className="nav-item">
-            <div className="nav-link btn" onClick={()=>setCategory("technology")}>Technology</div>
+          <div className="nav-link btn" onClick={()=>setCategory("sports")}>Sports</div>
         </li>
          <li className="nav-item">
-          <div className="nav-link btn" onClick={()=>setCategory("sports")}>Sports</div>
-        
+          <div className="nav-link btn" onClick={()=>setCategory("technology")}>Technology</div>
         </li>
          <li className="nav-item">
           <div className="nav-link btn" onClick={()=>setCategory("science")}>Science</div>
